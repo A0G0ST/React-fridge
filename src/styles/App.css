@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category {
+  text-align: center;
+  flex: 5%;
+  padding: 0px 48px;
+  margin: 8px 16px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.category-h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
